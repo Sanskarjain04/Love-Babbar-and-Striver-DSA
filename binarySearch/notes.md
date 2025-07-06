@@ -63,3 +63,28 @@ Iss condition me hume mid ko binary search ki help se right ki taraf shift karna
 
 2.leftSum is greater than rightsum:-
 Iss condition me hume mid ko left ki taraf shift karna hoga aur uske liye 
+
+
+## 4. Pivot in Array.
+Observations:-
+1.The values on index after the index of peak value in the array will always less than first index and last index value of the array.
+2.The value on index value before the peak index value will always be grater than value of first and last index of the array.
+3.The pivot index value will always be less than both of its neighbours and the peak index value will always be greater than both of its neighbours.
+4.The rest of the elements will be greater than their previous and less than their subsequent element.
+
+## 5.Search in a Rotated Sorted Array
+To tackle this problem we can use binary search.
+
+So first we need to check two conditions first
+jisme apan k ko first index aur last index se compare karenge toh ye 2 edge cases uss time handle hojayenge
+
+1.Agar k jo hai chota hai mid value se aur first index se bhi chota hai toh high ko mid-1 ke barabar kardo
+
+2.Agar k jo hai chota hai mid value se aur first index se bada hai toh low ko mid+1 ke barabar kardo
+
+3.Agar k jo hai bada hai mid value se aur first index se bada hai toh low ko mid+1 ke barabar kardo
+
+## 6.Book Allocation
+
+Humare pass number of students hain aur books hain jo increasing order of pages me ek array me stored hain, hume nikalna hai minimum sum jo books ke pages ka ho jo ek single student ko allocate ho sake aur saare bachon me bhi distribute ho
+
